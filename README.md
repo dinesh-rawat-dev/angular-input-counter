@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.3.
 
 
-![Angular Input Counter](https://ibb.co/jbSJhpS)
+![Angular Input Counter](https://github.com/dinesh-rawat/angular-input-counter/blob/master/AngularCounter.png)
 
 ## How to use?
 
@@ -12,7 +12,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
         [min]="5"  
         [max]="20"   
         [step]="1"  
-        [(counterValue)]="counterValue" [color]="'primary'"></angular-input-counter>
+        [(counterValue)]="counterValue" 
+        [color]="'primary'"></angular-input-counter>
 ```
 ### APIs
 
