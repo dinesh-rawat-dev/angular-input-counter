@@ -3,9 +3,10 @@ import { CounterComponent } from './counter.component';
 import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import {OnlyDigitsDirective} from './counter.directive';
 
 @NgModule({
-  declarations: [CounterComponent],
+  declarations: [CounterComponent, OnlyDigitsDirective],
   imports: [
     MatInputModule,
     MatIconModule,

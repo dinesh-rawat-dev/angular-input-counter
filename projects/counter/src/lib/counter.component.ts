@@ -1,22 +1,23 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
 
 @Component({
   selector: 'angular-input-counter',
   templateUrl: 'counter.component.html',
   styleUrls: ['counter.component.scss']
 })
-export class CounterComponent {
+export class CounterComponent implements OnInit {
   @Input() min = 1;
   @Input() max = 10;
   @Input() step = 1;
   @Input() appearance = 'none';
   @Input() color = 'primary';
-  @Input() counterValue : number = 0;
+  @Input() counterValue : number;
+  @Input() readonly : boolean;
   @Output() counterChange :  EventEmitter<number>;
-  constructor(){
-    this.counterValue = this.min;
+  
+  ngOnInit() {
+    this.counterValue = this.counterValue || this.min;
     this.counterChange = new EventEmitter();
-
   }
 
   @Input()

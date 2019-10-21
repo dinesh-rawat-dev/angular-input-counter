@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AngularCounterModule } from '../../projects/counter/src/lib/counter.module';
+import { AngularCounterModule } from 'angular-input-counter';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import {A11yModule} from '@angular/cdk/a11y';
 import {DragDropModule} from '@angular/cdk/drag-drop';
