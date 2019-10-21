@@ -1,0 +1,14 @@
+:host ::ng-deep {
+  .mat-form-field-infix {
+    width: 100%;
+    text-align: center;
+  }
+  .mat-mini-fab {
+    width: 32px;
+    height: 32px;
+
+    .mat-button-wrapper {
+      padding: 3px;
+    }
+  }
+}

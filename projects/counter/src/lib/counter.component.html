@@ -1,0 +1,10 @@
+<mat-form-field [appearance]="appearance">
+  <button mat-mini-fab matPrefix [color]="color" (click)="decrement()" [disabled]="counterValue <= min">
+    <mat-icon>remove</mat-icon>
+  </button>
+  <input matInput type="text" [value]="counterValue">
+
+  <button mat-mini-fab matSuffix [color]="color" (click)="increment()" [disabled]="counterValue >= max">
+    <mat-icon>add</mat-icon>
+  </button>
+</mat-form-field>

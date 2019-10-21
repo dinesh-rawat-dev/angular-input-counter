@@ -1,0 +1,24 @@
+{
+  "name": "angular-input-counter",
+  "version": "0.0.2",
+  "author": "Dinesh Rawat <dineshrawat.mca@gmail.com>",
+  "bugs": "https://github.com/dinesh-rawat/angular-input-counter/issues",
+  "homepage": "https://github.com/dinesh-rawat/angular-input-counter",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Chhavi Kohli",
+      "email": "chhavikohli96@gmail.com"
+    }
+  ],
+  "keywords": [
+    "Angular",
+    "Angular Input Counter",
+    "Angular 8",
+    "Angular increment decrement counter"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^8.1.3",
+    "@angular/core": "^8.1.3"
+  }
+}
